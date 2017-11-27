@@ -25,3 +25,9 @@ Progress
 </progress>
 ```
 
+Time
+```
+<time>10:00</time>
+<time datetime="2014-12-24">Christmas Eve</time>
+```
+
