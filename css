@@ -14,4 +14,10 @@ Child selectors -
 .coffeetype a { color: red; }
 .coffeetype > a { color: red; }
 
-    
+Pseudo classes - 
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover {color : green;}
+a:active { color: red; }
+
+Pseudo elements - p:first-child { color: red; }
