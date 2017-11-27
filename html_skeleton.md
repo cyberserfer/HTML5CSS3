@@ -1,6 +1,10 @@
 
 ```HMTL
 <html>
+   <head>
+      <title>Title of the document</title>
+      <link rel="stylesheet" href="Styles/Layout.css" type="text/css" />
+   </head>
    <body>
       <header>
           <nav>...</nav>
