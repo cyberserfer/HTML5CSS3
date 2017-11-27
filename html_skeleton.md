@@ -1,0 +1,16 @@
+<html>
+   <body>
+      <header>
+          <nav>...</nav>
+      </header>
+      <main>
+          <article>
+             <section>...</section>
+             <aside>...</aside>
+          </article>
+      </main>
+      <footer>
+          <nav>...</nav>
+      </footer>
+   </body>
+</html>
