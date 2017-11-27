@@ -1,17 +1,17 @@
 Full list of HTML elements:
 http://www.w3schools.com/tags/default.asp
 
-Higlight text
-```
-<mark>before our holiday closing!</mark>
-```
-
 Figure and Figcaption
 ```
 <figure>
   <img src="cup.jpg" alt="The Pulpit Rock" width="304" height="228">
   <figcaption>Fig.1 - A fresh cup.</figcaption>
 </figure>
+```
+
+Higlight text
+```
+<mark>before our holiday closing!</mark>
 ```
 
 Meter
@@ -23,6 +23,14 @@ Progress
 ```
 <progress value="75" max="100">
 </progress>
+```
+
+Section
+```
+<section>
+<h1>Kenia Blend</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</section>
 ```
 
 Time
