@@ -37,3 +37,29 @@ height is retained in document flow and other elements behave as if it was in it
 }
 ```
 
+***Static*** positioning is the default behavior of elements.
+
+```
+.blueBox {
+    background: #627da0;
+    position: static;
+}
+```
+
+***Inherited*** positioning tells an element to inherit its positioning from its parent element. 
+
+***Z-index*** controls the vertical stacking order of elements. Elements must have a set positioning for z-index to work.
+
+```
+.blueBox {
+    background: #627da0;
+    position: relative;
+}
+
+.greenBox {
+    background: #5b8054;
+    position: relative;
+    top: -150px;
+    z-index: -1; 
+}
+```
