@@ -16,4 +16,4 @@ https://www.w3.org/TR/CSS2/propidx.html
 
 CSS Selectors - https://www.w3.org/TR/css3-selectors/#selectors 
 
-
+CSS Reset template - http://meyerweb.com/eric/tools/css/reset/
