@@ -43,3 +43,7 @@ a:hover {color : green;}
 a:active { color: red; }
 
 ***Pseudo elements*** - p:first-child { color: red; }
+
+___________________________
+
+The user.css (from the person's browser) will be overridden by the xxxx.css from the site unless the user.css has selectors which indicate "!important". 
