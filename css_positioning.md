@@ -63,3 +63,24 @@ height is retained in document flow and other elements behave as if it was in it
     z-index: -1; 
 }
 ```
+
+Float and Clear
+The float will allow elements to wrap around it although this does not apply to multiple img elements. If one img element has a float=left attribute and the other does not, the one that does not will just slide up and under the floated element.
+
+Clear will ignor the designated float and kick the text (or next element) to the next line - like a break tag.
+
+```
+.blueBox {
+    background: #627da0;
+    float: left;
+}
+
+.greenBox {
+    background: #5b8054;
+    float: left;
+}
+
+h1 {
+    clear: both;
+}
+```
