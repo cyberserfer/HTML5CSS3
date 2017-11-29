@@ -14,22 +14,32 @@ p { color: green; }
 
 #siteHeader { color: green; }
 
-***Combined selector*** - 
+***Combined*** - 
 
 p.coffeeType { color: yellow; }
 
-***Descendant selectors*** - an element at any level that is within the initial (e.g.; .coffeetype) selector
+***Descendant*** - an element at any level that is within the initial (e.g.; .coffeetype) selector
 
 .coffeetype a { color: red; }
 
-***Child selectors*** - an element at the direct next level after the selector element
+***Child*** - an element at the direct next level after the selector element
 
 .coffeetype > a { color: red; }
 
-***Pseudo classes*** - 
+***Attribute selector*** - selects based on attribute value
+
+img[alt=spacer] {
+  padding:0px;
+}
+
+***Pseudo class*** - Set based on condition. Not explicitly set.
+
 a:link { color: blue; }
+
 a:visited { color: red; }
+
 a:hover {color : green;}
+
 a:active { color: red; }
 
 ***Pseudo elements*** - p:first-child { color: red; }
