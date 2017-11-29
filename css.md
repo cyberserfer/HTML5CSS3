@@ -2,11 +2,11 @@ CSS info
 
 CSS Selectors
 
-Tag name - p { color: green; }
+Simple / Tag - p { color: green; }
 
-Class name - .coffeeType { color: green; }
+Class - .coffeeType { color: green; }
 
-Element ID - #siteHeader { color: green; }
+ID - #siteHeader { color: green; }
 
 Combined selector - p.coffeeType { color: yellow; }
 
