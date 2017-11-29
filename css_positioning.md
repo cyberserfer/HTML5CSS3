@@ -1,4 +1,6 @@
-CSS Positioning
+<H1> CSS Positioning
+
+The HTML code that this is being applied is located at the end of the page.
 
 ***Fixed*** positioning ’fixes‘ the position of an element relative to the browser window. The element always stays fixed in 
 place, even when scrolling.
