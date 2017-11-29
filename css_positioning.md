@@ -1,4 +1,4 @@
-<H1> CSS Positioning
+<h1> CSS Positioning </h1>
 
 The HTML code that this is being applied is located at the end of the page.
 
