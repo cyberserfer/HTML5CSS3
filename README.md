@@ -11,3 +11,5 @@ https://www.w3schools.com/tags/tag_link.asp
 http://HTML5please.com
 
 https://modernizr.com/
+
+https://www.w3.org/TR/CSS2/propidx.html
