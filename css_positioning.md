@@ -123,6 +123,8 @@ To place an element half way down the window you can set top to 50%. Unfortunate
 
 Centering - Both Horizontal and Vertical
 
+For centering on both axis you need to set the size of the box in the .box, set the horizontal centering in the .bluebox, and set the verticle centering in the .container.
+
 ```
 .box {
     background: #627da0;
@@ -131,7 +133,7 @@ Centering - Both Horizontal and Vertical
 }
 
 .blueBox {
-    
+    margin: 0 auto;
 }
 
 .container {
