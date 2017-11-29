@@ -1,29 +1,31 @@
-#CSS info#
+<h1>CSS info</h1>
 
 CSS Selectors
 
-Simple / Tag - 
+***Simple / Tag*** - 
 
 p { color: green; }
 
-Class - Classes can be defined and used in any element.
+***Class*** - Classes can be defined and used in any element.
 
 .coffeeType { color: green; }
 
-ID - IDs can be defined and only used for one element on any given html page.
+***ID*** - IDs can be defined and only used for one element on any given html page.
 
 #siteHeader { color: green; }
 
-Combined selector - p.coffeeType { color: yellow; }
+***Combined selector*** - 
 
-Child selectors -
+p.coffeeType { color: yellow; }
+
+***Child selectors*** -
 .coffeetype a { color: red; }
 .coffeetype > a { color: red; }
 
-Pseudo classes - 
+***Pseudo classes*** - 
 a:link { color: blue; }
 a:visited { color: red; }
 a:hover {color : green;}
 a:active { color: red; }
 
-Pseudo elements - p:first-child { color: red; }
+***Pseudo elements*** - p:first-child { color: red; }
