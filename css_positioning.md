@@ -84,3 +84,40 @@ h1 {
     clear: both;
 }
 ```
+
+Centering
+When centering an element the code below can be used. This defines the margin to the left and right as being equal thus centered. The element that is being centered must have a width set otherwise it will stretch the element the full width of the screem. (this would be useful for banners)
+
+```
+.box {
+    background: #627da0;
+    width: 100px;
+    height: 100px;
+}
+
+.blueBox {
+    margin: 0 auto;
+}
+```
+
+NOTE:
+All of the above css is being applied to the following HTML page
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Positioning</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box blueBox"></div>
+        </div> 
+        <h1>Understanding CSS Positioning</h1>
+        <p>One of the most commonly asked questions is how to <em>center elements</em> since there is no option to float center.  But by  thinking carefully about how elements  behave, we can use positioning to achieve the same result.</p>
+    </body>
+
+</html>
+```
