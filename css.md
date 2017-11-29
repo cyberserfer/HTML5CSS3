@@ -52,3 +52,8 @@ body {
   font-size: 150%; !important;
 }
 
+________________________________
+
+Browser Developer Tools are able to expose how the DOM is being handled. This is helpful to determine things like which .css is being applied.
+
+
