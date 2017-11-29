@@ -13,3 +13,7 @@ http://HTML5please.com
 https://modernizr.com/
 
 https://www.w3.org/TR/CSS2/propidx.html
+
+CSS Selectors - https://www.w3.org/TR/css3-selectors/#selectors 
+
+
