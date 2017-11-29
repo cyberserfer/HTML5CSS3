@@ -32,7 +32,7 @@ img[alt=spacer] {
   padding:0px;
 }
 
-***Pseudo class*** - Set based on condition. Not explicitly set.
+***Pseudo class*** - Set based on condition. Not explicitly set but are inherent based on condition.
 
 a:link { color: blue; }
 
