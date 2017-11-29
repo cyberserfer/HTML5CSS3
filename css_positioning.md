@@ -87,9 +87,7 @@ h1 {
 }
 ```
 
-Centering
-
-Horizontal
+Centering - Horizontal
 
 When centering an element the code below can be used. This defines the margin to the left and right as being equal thus centered. The element that is being centered must have a width set otherwise it will stretch the element the full width of the screem. (this would be useful for banners)
 
@@ -105,7 +103,7 @@ When centering an element the code below can be used. This defines the margin to
 }
 ```
 
-Verticle
+Centering - Verticle
 
 To place an element half way down the window you can set top to 50%. Unfortunately, this places the top of the element just under the 50% line and you will need to compensate for the actual size of the item. In the example below margin-top has been set to -50px which is half the height set in the .box element.
 
@@ -120,6 +118,29 @@ To place an element half way down the window you can set top to 50%. Unfortunate
     position: absolute;
     top: 50%;
     margin-top: -50px;
+}
+```
+
+Centering - Both Horizontal and Vertical
+
+```
+.box {
+    background: #627da0;
+    width: 100px;
+    height: 100px;
+}
+
+.blueBox {
+    
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 0;
+    width: 100%;
+    
 }
 ```
 
