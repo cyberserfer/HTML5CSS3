@@ -46,7 +46,7 @@ a:active { color: red; }
 
 ___________________________
 
-The user.css (from the person's browser) will be overridden by the xxxx.css from the site unless the user.css has selectors which indicate "!important". 
+The user.css (from the person's browser) will be overridden by the style.css from the site unless the user.css has selectors which indicate "!important". 
 
 body {
   font-size: 150%; !important;
