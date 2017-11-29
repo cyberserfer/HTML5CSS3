@@ -18,8 +18,12 @@ p { color: green; }
 
 p.coffeeType { color: yellow; }
 
-***Child selectors*** -
+***Descendant selectors*** - an element at any level that is within the initial (e.g.; .coffeetype) selector
+
 .coffeetype a { color: red; }
+
+***Child selectors*** - an element at the direct next level after the selector element
+
 .coffeetype > a { color: red; }
 
 ***Pseudo classes*** - 
