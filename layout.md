@@ -33,4 +33,5 @@ margin-left: 400px; When applied to the css this will create a margin of 400px t
 
  <- column->[     column 2    ]
  
+ 3 column layouts are sort of the Holy Grail of CSS. They are often problematic.
  
