@@ -80,4 +80,4 @@ c = Count of type selectors
 
 "#content" /* a=1 b=0 c=0 -> specificity = 100
 
-
+Finally, an "inline style" will have the highest weight and will take precedence over all.
