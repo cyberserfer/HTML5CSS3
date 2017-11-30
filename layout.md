@@ -12,3 +12,13 @@ float attribute allows text to wrap around the floated container (e.g.; an image
 
 clear has the ability to stop the wrap created by float. e.g.; you just want the image explanation to the right of the image and do not want the next paragraph creaping up.
 
+```
+#figure1 {
+  float: left;
+  margin-right: 5px;
+}
+
+.clear {
+  clear: both;
+}
+```
