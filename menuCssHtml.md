@@ -1,4 +1,4 @@
-#styles.css
+# styles.css
 
 ```
 *  
@@ -40,7 +40,7 @@ body
 }
 ```
 
-<h1>page.html</h1>
+# page.html
 
 ```
 <!DOCTYPE html>
