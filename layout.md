@@ -30,3 +30,7 @@ To create column you set margin(s) to the right/left of a container.
 margin-left: 400px; When applied to the css this will create a margin of 400px to the left of the element it was applied to.
 
  <- 400px ->[container element]
+
+ <- column->[     column 2    ]
+ 
+ 
