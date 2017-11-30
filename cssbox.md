@@ -1,4 +1,4 @@
-<h1>CSS Box info</h1>
+# CSS Box info
 
 Note that the Browser's Development tool has the ability to show the specifics for the box info.
 
