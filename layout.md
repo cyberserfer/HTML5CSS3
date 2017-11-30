@@ -2,7 +2,7 @@
 
 positioning - relative, fixed and absolute
 
-relative - set position relative to tje element's starting point
+relative - set position relative to the element's starting point
 
 fixed - set position in window regardless of page elements. The item will always be displayed where you put it in the window.
 
@@ -22,3 +22,11 @@ clear has the ability to stop the wrap created by float. e.g.; you just want the
   clear: both;
 }
 ```
+
+## Columns
+
+To create column you set margin(s) to the right/left of a container.
+
+margin-left: 400px; When applied to the css this will create a margin of 400px to the left of the element it was applied to.
+
+ <- 400px ->[container element]
