@@ -70,14 +70,14 @@ b = Count of class and attribute selectors
 
 c = Count of type selectors
 
-* a=0 b=0 c=0 -> specificity = 0 
+"*" a=0 b=0 c=0 -> specificity = 0 
 
-LI a=0 b=0 c=1 -> specificity = 1 
+"LI" a=0 b=0 c=1 -> specificity = 1 
 
-UL LI a=0 b=0 c=2 -> specificity = 2 
+"UL LI" a=0 b=0 c=2 -> specificity = 2 
 
-LI.red a=0 b=1 c=1 -> specificity = 11 
+"LI.re"d a=0 b=1 c=1 -> specificity = 11 
 
-#content /* a=1 b=0 c=0 -> specificity = 100
+"#content" /* a=1 b=0 c=0 -> specificity = 100
 
 
