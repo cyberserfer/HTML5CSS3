@@ -10,3 +10,6 @@ The margin element is able to take all four values in line.
 
 margin: 5px 10px 5px 10px (top right bottom left)
 
+border-bottom: 5px solid red; (size type color) - Also works with border-top, border-right, border-left
+
+
