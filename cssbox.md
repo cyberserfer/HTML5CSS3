@@ -3,7 +3,6 @@
 Note that the Browser's Development tool has the ability to show the specifics for the box info.
 
 ![Info from Browser Dev Tool for box](./img/boxBrowserInfo.PNG)
-
 ![css box illustration](./img/cssBox.PNG)
 
 Margin - pushes out from border
