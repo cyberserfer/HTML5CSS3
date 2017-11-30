@@ -56,4 +56,28 @@ ________________________________
 
 Browser Developer Tools are able to expose how the DOM is being handled. This is helpful to determine things like which .css is being applied.
 
+_______________
+
+Cascade and Weight of selectors
+
+The last .css listed will be the one for which its elements has precedence. 
+
+The exception to this depends on "specificity" which is evaluated by the wieght of the selector. Selectors that have more specificity, based on the 3 items below, are given a higher weight and are used before those with a lesser weight.
+
+a = Count of ID selectors
+
+b = Count of class and attribute selectors
+
+c = Count of type selectors
+
+* a=0 b=0 c=0 -> specificity = 0 
+
+LI a=0 b=0 c=1 -> specificity = 1 
+
+UL LI a=0 b=0 c=2 -> specificity = 2 
+
+LI.red a=0 b=1 c=1 -> specificity = 11 
+
+#content /* a=1 b=0 c=0 -> specificity = 100
+
 
