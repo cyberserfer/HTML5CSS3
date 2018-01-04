@@ -25,62 +25,62 @@ New JavaScript APIs available
 * Web Animations 
  
 Interactions, Events, and Messaging 
-Battery Status 
-Clipboard API & Events 
-Cross Document Messaging 
-Device & Screen Orientation 
-Full Screen 
-Geolocation 
-Media Capture 
-Notifications 
-Touch Events 
-Vibration 
+* Battery Status 
+* Clipboard API & Events 
+* Cross Document Messaging 
+* Device & Screen Orientation 
+* Full Screen 
+* Geolocation 
+* Media Capture 
+* Notifications 
+* Touch Events 
+* Vibration 
  
 Storage and Files 
-Blob URLs 
-File API 
-File Reader 
-IndexedDB 
-Local Storage 
+* Blob URLs 
+* File API 
+* File Reader 
+* IndexedDB 
+* Local Storage 
  
 Real-Time Communication 
-Push API 
-Server-sent Events 
-Web Sockets 
+* Push API 
+* Server-sent Events 
+* Web Sockets 
  
 Web Components 
-Custom Elements 
-Shadow DOM  
-Templates 
+* Custom Elements 
+* Shadow DOM  
+* Templates 
  
 Performance Optimization & Analysis 
-High Resolution Time - operations and cacluations 
-Navigation Timing - load times, how users navigated to the page 
-Page Visibility - used to react to pages state.  
-User Timing -  
-Web Worker - use threads within the browser (in background) 
+* High Resolution Time - operations and cacluations 
+* Navigation Timing - load times, how users navigated to the page 
+* Page Visibility - used to react to pages state.  
+* User Timing -  
+* Web Worker - use threads within the browser (in background) 
  
 Security & Privacy 
-Content Security Policy 
-Referrer Policy 
-Web Cryptography 
+* Content Security Policy 
+* Referrer Policy 
+* Web Cryptography 
  
 Misc APIs 
-Load scripts: async & defer 
-Content Editable 
-Drag & Drop 
-History 
-Promises 
-Service Workers (replaces application cache) 
+* Load scripts: async & defer 
+* Content Editable 
+* Drag & Drop 
+* History 
+* Promises 
+* Service Workers (replaces application cache) 
  
 Note: the following items are not (directly) part of HTML5 
-Web SQL database (not used anymore) 
-Indexed Database API 
-File API 
-File Writer 
-Background Workers 
-Geolocation 
-Web Sockets 
+* Web SQL database (not used anymore) 
+* Indexed Database API 
+* File API 
+* File Writer 
+* Background Workers 
+* Geolocation 
+* Web Sockets 
  
 HTML5 Semantic Elements 
 Semantic - Does not add visual aspects but does wrap things in meaning. 
@@ -100,11 +100,11 @@ Video
 Canvas 
  
 Inline Elements 
-Mark (highlighter) 
-Meter 
-Progress 
-Output 
-Time 
+* Mark (highlighter) 
+* Meter 
+* Progress 
+* Output 
+* Time 
  
 CDN - Content Delivery Network 
  
