@@ -1,6 +1,45 @@
 # CSS Positioning 
 
-The HTML code that this is being applied is located at the end of the page.
+## Placing two divs next to each other
+
+Floating one div:
+```
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+```
+or if you float both, you'll need to encourage the wrapper div to contain both the floated children, or it will think it's empty and not put the border around them
+
+Floating both divs:
+```
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+}
+```
+
+The HTML code that the following is being applied is located at the end of the page.
 
 ***Fixed*** positioning ’fixes‘ the position of an element relative to the browser window. The element always stays fixed in 
 place, even when scrolling.
