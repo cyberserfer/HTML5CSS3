@@ -2,6 +2,11 @@
 
 ## Placing two divs next to each other
 
+Centering - put in style
+        diplay: 'flex'
+        justifyContent: 'center'
+        alignItems: 'center'
+
 Floating one div:
 ```
 #wrapper {
