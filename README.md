@@ -2,6 +2,8 @@
 
 ## Links
 
+to learn about flex style css - http://flexboxfroggy.com/
+
 https://platform.html5.org/
 
 https://caniuse.com/
