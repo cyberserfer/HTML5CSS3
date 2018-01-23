@@ -2,7 +2,7 @@
 
 ## Links
 
-wireframe tool = https://wirefreamepro.mockflow.com
+wireframe tool = https://wireframepro.mockflow.com
 
 to learn about flex style css - http://flexboxfroggy.com/
 
